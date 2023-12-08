@@ -1,0 +1,51 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #acd7e4; /* Changed shadow color to a light blue */
+    border: 2px solid #acd7e4; /* Changed border color to a light blue */
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    color: #d71f3f; /* Changed font color to red */
+    background-color: #1e3459; /* Changed background color to a darker blue */
+}
+
+.game--title {
+    font-size: 100px;
+    color: #1e3459; /* Changed font color to a darker blue */
+    margin: 10px auto;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #1e3459; /* Changed background color to a darker blue */
+    color: #04c0b2;
+}
+
+.game--status {
+    font-size: 50px;
+    color: #1e3459; /* Changed font color to a darker blue */
+    margin: 20px auto;
+}
+
+.game--restart {
+    background-color: #acd7e4; /* Changed background color to a light blue */
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #d71f3f; /* Changed font color to red */
+    box-shadow: 2px 2px 2px 2px #ac235c; /* Changed shadow color to a darker red */
+    border: 2px solid #ac235c; /* Changed border color to a darker red */
+}
